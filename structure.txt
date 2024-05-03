@@ -1,0 +1,55 @@
+.
+├── api.js
+├── backend
+│   ├── app.js
+│   ├── app.test.js
+│   ├── config.js
+│   ├── config.test.js
+│   ├── db.js
+│   ├── expressError.js
+│   ├── helpers
+│   │   ├── sql.js
+│   │   ├── sql.test.js
+│   │   ├── tokens.js
+│   │   └── tokens.test.js
+│   ├── jobly-schema.sql
+│   ├── jobly-seed.sql
+│   ├── jobly.sql
+│   ├── middleware
+│   │   ├── auth.js
+│   │   └── auth.test.js
+│   ├── models
+│   │   ├── company.js
+│   │   ├── company.test.js
+│   │   ├── job.js
+│   │   ├── job.test.js
+│   │   ├── _testCommon.js
+│   │   ├── user.js
+│   │   └── user.test.js
+│   ├── package.json
+│   ├── Procfile
+│   ├── routes
+│   │   ├── auth.js
+│   │   ├── auth.test.js
+│   │   ├── companies.js
+│   │   ├── companies.test.js
+│   │   ├── jobs.js
+│   │   ├── jobs.test.js
+│   │   ├── _testCommon.js
+│   │   ├── users.js
+│   │   └── users.test.js
+│   ├── schemas
+│   │   ├── companyNew.json
+│   │   ├── companySearch.json
+│   │   ├── companyUpdate.json
+│   │   ├── jobNew.json
+│   │   ├── jobSearch.json
+│   │   ├── jobUpdate.json
+│   │   ├── userAuth.json
+│   │   ├── userNew.json
+│   │   ├── userRegister.json
+│   │   └── userUpdate.json
+│   └── server.js
+└── structure.txt
+
+7 directories, 46 files
